@@ -6,7 +6,7 @@ public class MainClass {
         Students student1 = new Students("Abdullah Al Masud", "Khanpara, Sundarganj, Gaibandha, Rangpur", "01772901068", 21);
         Students student2 = new Students("Sayra Alom Maliha", "Sopnopur, Amanda, Orion Planet", "562535362", 20);
         Students student3 = new Students(); // Empty object
-        Students student4 = new Students("The Offline Dreamer", "Multiverse"); // Pass 3 values
+        Students student4 = new Students("The Offline Dreamer", "Multiverse"); // Pass 2 values
         
         // Display the students info
         System.out.println("Student data for student 1 : ");
