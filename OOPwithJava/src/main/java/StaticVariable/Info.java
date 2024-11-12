@@ -6,6 +6,7 @@ public class Info {
     String batch;
     String dept;
     static String university = "Dhaka International University";
+    static int count; // For counting total student number and it must be static
     
     Info(String n, int ID, String b, String d) {
         name = n;
@@ -20,5 +21,6 @@ public class Info {
         System.out.println("Batch : " + batch);
         System.out.println("Department : " + dept);
         System.out.println("University : " + university);
+        count++;
     }
 }
