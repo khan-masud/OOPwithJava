@@ -21,5 +21,31 @@ public class Main {
         System.out.println("Info Added Via Constructor");
         System.out.println("----------------------------");
         member2.memberInfo();
+        
+        
+         // Check intanceof 
+         
+         Person p = new Person();
+         Member m = new Member();
+         Commettee c = new Commettee();
+         
+         boolean isCinstanceOfMember = c instanceof Member;
+         boolean isMinstanceOfPerson = m instanceof Person;
+         boolean isPinstanceOfCommettee = p instanceof Commettee;
+         boolean isCinstanceOfPerson = c instanceof Person;
+         boolean isPinstanceOfMember = p instanceof Member;
+         boolean isMinstanceOfCommettee = m instanceof Commettee;
+         
+         
+         System.out.println("\n\n");
+         System.out.println("Check Instance Result");
+         System.out.println("----------------------------");
+         System.out.println("Commettee instanceof Member : " + isCinstanceOfMember);
+         System.out.println("Member instanceof Person : " + isMinstanceOfPerson);
+         System.out.println("Person instanceof Commettee : " + isPinstanceOfCommettee);
+         System.out.println("Commettee instanceof Person : " + isCinstanceOfPerson);
+         System.out.println("Person instanceof Member : " + isPinstanceOfMember);
+         System.out.println("Member instanceof Commettee : " + isMinstanceOfCommettee);
     }
+    
 }
